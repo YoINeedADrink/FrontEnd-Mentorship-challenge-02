@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto-Regular.ttf);
+}
+body {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.container {
+    width: 399px;
+    height: 565px;
+
+    background-color: #c5e2f1;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 353px;
+    height: 83px;
+}
+label, p {
+    height: 5px;
+    margin-left: 7px;
+}
+input {
+    width: 353px;
+    height: 53px;
+
+    background: #FBFAFA;
+    border-radius: 15px;
+    border: 0;
+}
+.gender-box {
+    width: 133px;
+    height: 52px;
+    display: inline-block;
+
+    color: #928C8C;
+    background: #FBFAFA;
+    border-radius: 15px;
+}
+#male, #female {
+    margin-top:10px;
+    margin-left: 15px;
+}
+#male, #female, #terms {
+    width: 18px;
+    height: 21px;
+}
+.submit {
+    color: white;
+
+    background: #3498DB;
+    border-radius: 10px;
+}
